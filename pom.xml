@@ -6,7 +6,12 @@
 
     <groupId>com.wjl</groupId>
     <artifactId>message</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>rabbitmq</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -17,12 +22,7 @@
     </properties>
 
     <dependencies>
-        <!-- RabbitMQ -->
-        <dependency>
-            <groupId>com.rabbitmq</groupId>
-            <artifactId>amqp-client</artifactId>
-            <version>4.1.0</version>
-        </dependency>
+
     </dependencies>
 
     <build>
